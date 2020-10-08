@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL:  https://hugeota.d.miui.com/20.9.17/miui_LAVENDER_20.9.17_c0567a17a1_10.0.zip
+  ROM_URL:  https://hugeota.d.miui.com/V12.0.4.0.QFJCNXM/miui_DAVINCI_V12.0.4.0.QFJCNXM_e5cf683f93_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -29,9 +29,6 @@ jobs:
        
        - name: Clean Up
          run: |
-           docker rmi `docker images -q`
-           sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
-           sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*
            sudo -E apt-get update
            sudo -E apt-get -y autoremove --purge
            sudo -E apt-get clean 
@@ -42,7 +39,7 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/wwrrj/ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
