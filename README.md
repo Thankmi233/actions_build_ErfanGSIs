@@ -1,4 +1,4 @@
-##actions_build_ErfanGSIs
+## actions_build_ErfanGSIs
 
 修改了什么？
 
@@ -8,7 +8,8 @@
 
 取消精简
 
-##支持的Roms
+## 支持的Roms
+
 ### 9 Pie： ### 
 > ColorOS	
 Flyme
