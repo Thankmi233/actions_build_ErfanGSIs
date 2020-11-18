@@ -45,7 +45,7 @@ Pixel
        
 fork该仓库https://github.com/erfanoabdi/ErfanGSIs
 
-并将链接替换成你自己frok后的链接
+并将链接替换成你自己fork后的链接
 
 修改Erfan项目中roms/安卓版本/rom文件夹中debloat.sh
 
