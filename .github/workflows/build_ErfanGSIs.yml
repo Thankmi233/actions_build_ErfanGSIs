@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL:  https://nchc.dl.sourceforge.net/project/havoc-os/cepheus/Havoc-OS-v3.11-20201111-cepheus-Official.zip?viasf=1
-  ROM_NAME: Generic
+  ROM_URL:  https://hugeota.d.miui.com/20.11.25/miui_VIOLET_20.11.25_33be88623d_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
