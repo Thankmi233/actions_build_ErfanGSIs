@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL:  http://download.h2os.com/OnePlus6T/MP/OnePlus6THydrogen_34.K.48_OTA_048_all_2010222249_a9be4dca482041ea.zip
+  ROM_URL:  http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_065_all_2012030405_03dba2c095454647.zip
   ROM_NAME: OxygenOS
 
 jobs:
