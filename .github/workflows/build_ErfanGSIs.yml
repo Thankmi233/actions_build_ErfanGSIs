@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL:  https://oxygenos.oneplus.net/OnePlus7ProOxygen_21.P.31_OTA_031_all_2011052258_42a665d7dc95490e.zip
+  ROM_URL:  http://download.h2os.com/OnePlus6T/MP/OnePlus6THydrogen_34.K.48_OTA_048_all_2010222249_a9be4dca482041ea.zip
   ROM_NAME: OxygenOS
 
 jobs:
@@ -43,7 +43,7 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to transfer
+       - name: Upload GSI to WeTransfer
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer wet final/GSI.zip
