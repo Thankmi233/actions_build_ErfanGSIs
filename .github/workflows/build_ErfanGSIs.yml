@@ -27,7 +27,7 @@ jobs:
          uses: actions/checkout@master
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/wwrrj/ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/Thankmi233/ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
